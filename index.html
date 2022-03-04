@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Willy Wonkas - Personal Portfolio Website Template" />
+    <meta name="keywords"
+        content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="author" content="willy wonka" />
+    <title>Unitedkj</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="../public/css/index.css">
+    <!--main css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+     <!-- update the version number as needed -->
+     <script defer src="/__/firebase/9.6.8/firebase-app-compat.js"></script>
+     <!-- include only the Firebase features as you need -->
+     <script defer src="/__/firebase/9.6.8/firebase-auth-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-database-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-firestore-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-functions-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-messaging-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-storage-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-analytics-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-remote-config-compat.js"></script>
+     <script defer src="/__/firebase/9.6.8/firebase-performance-compat.js"></script>
+     <!-- 
+       initialize the SDK after all desired features are loaded, set useEmulator to false
+       to avoid connecting the SDK to running emulators.
+     -->
+     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+        <div class="cursor"></div>
+        <!--mouse  follower-->
+        <!--loader-->
+        <div id="loader">
+            <span class="color">United</span>KJ
+        </div>
+        <!--loader-end-->
+        <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+        <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link">HOME</a>
+                <!-- <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
+                <a href="#" data-text="BLOG" id="blog-link" >BLOG</a> -->
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link">OUR WORKS</a>
+                <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+        <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="../public/images/kj1.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+        <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+            <!--Social Media Links-->
+            <div class="social-media-links">
+                <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <!--Your instagram homepage link inser in place of "#"-->
+                <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                    <br><br><br><br>
+                    <div class="firstline"><span class="color">Creating possibility </span><br>in and around the world.
+                    </div>
+                    <div class="secondline">
+                        <span  class="txt-rotate color" data-period="600"
+                            data-rotate='[ " Digital Marketing"," Mobile App Development.",  "Website Development"," Digital Marketting" ]'></span>
+                        <!-- <span class="slash">|</span><br><br><br>
+                        <div class="button"><a href="theme-dust.html#portfolio-content" data-text="PORTFOLIO" id="portfolio-link"><button
+                                    onclick="load_portfolio()" data-text="PORTFOLIO" id="portfolio-link"
+                                    style="padding:15px 30px ;border: 2px solid #C70039;color:#C70039;font-weight: 500;"><span>View
+                                        Project<i
+                                            class="gg-arrow-right"></i></span></button></a>&nbsp;&nbsp;&nbsp;<button
+                                onclick=" load_portfolio()"
+                                style="padding:15px 40px;border: 2px solid #C70039;color:#C70039;font-weight: 500;"><span
+                                    class="index"> Contact<i class="gg-arrow-right"></i></span></button></a></div>
+                         </div> -->
+                    <div class="contact">
+                        <a href="Mailto:kamaleshmuthu01@gmail.com"><img src="images/mail.png" alt="email-pic"
+                                class="contactpic"></a>
+                        <!--Your email Id write in place of "#"-->
+                        <a href="Tel:+13467749686"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+                        <!--Your telephone number Id write in place of "#"-->
+                    </div>
+                </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+            </div>
+            <!--header image end-->
+        </div>
+        <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <!-- <div id="about">
+        <a id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div> -->
+        <!--about content-->
+        <!-- <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow"> -->
+        <!--about description-->
+        <!-- <span class="about-first-line">
+                    I'm creative 
+                    <span class="color">web developer</span>
+                     based in New York , USA </span>
+                     <br>
+               <span class="about-second-line"> WE PROVIDE AN EXCLUSIVE MOBILE BASED DIGITAL EXPERIENCE TO OUR CUSTOMERS
+                WE BUILT THEIR IDEA AND SIMPLIFIED THEIR EXPERIENCE.</span>
+               <div class="cv">
+                <a href="#"><button>Download <span class="colors">CV</span></button></a>
+            </div>
+            </div> -->
+        <!--about picture-->
+        <!-- <div class="about-img">
+                <img src="images/about.jpg" alt="Your Image">
+            </div>
+        </a>
+            </div>
+    
+            </div>
+            
+            
+            </div> -->
+        
+    </div>
+    <!--about end-->
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul>
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-header"> <span class="color"> Our </span> Projects
+            <div id="portfolio-content">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/p7.png" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Dukhan Aloud</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Dukhanaloud,
+                            UAE <br><br>A special Emirati brand specializing in trading the finest types of agarwood and
+                            authentic agarwood,designing the most luxurious and finest types of perfumes and agarwood
+                            mixtures with magical touches of incense and fragrant agarwood all designed by Dukhan Aloud.
+                        </p>
+                        <div class="button"><a href="https://dukhanaloud.ae/"  target="_blank"><button><span class="index"> Visit
+                                        Website<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+
+                </div>
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/cash.ae.png" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Cash Store</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Cash store,
+                            UAE <br><br>They are based in United Arabi Emirates
+                            They supply high quality Product’s & offer a mix of phone accessories, electronic products, trendy collection of sunglasses, T-shirts, shorts and much more!
+                            You can buy Whatever you want from their store! Be assured they offer a secure payment system, low cost shipping and great customer service</p>
+                        <div class="button"><a href="http://cashstore.ae/"  target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="images/alaihal.png" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Alaihal</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Alaihal,
+                            India <br><br>Alaihal is a religious e-commerce website. Which is maintained by the Salesians of Don Bosco. They provide us products like Holy Articles, Statues, CD/DVDs, Music Equipments, Books, etc...
+                        </p>
+                        <div class="button"><a href="https://alaihal.com/"  target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/fmm.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>FMM India</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;FMM,
+                            India <br><br>Mary of the Passion with a large heart willing to embrace those in need of  whatever kind did not specify a particular line of action for her daughters. Instead, they are expected to answer the needs of our  day as she did in her life time. Being the first missionary congregation for women in the church she reached out wholesale for the development and liberation of women – claiming self-respect, providing means to earn their livelihood and to be daring to an extant too.
+                        </p>
+                        <div class="button"><a href="https://fmmindia.org/"  target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/cluny.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Cluny Pondichery Organization</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Cluny Pondichery,
+                            India <br><br>They are called to reach out to all in Love, service compassion, sensitivity and understanding with the spirit of Good will. Like Jesus who reached out to the poor, homeless, the orphans, the marginalized, the sick, the unwanted, They too are invited to reach out to all who are weak and vulnerable.
+                        </p>
+                        <div class="button"><a href="https://clunypondy.org/"  target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/dcmss.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>DCMSS</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;DCMSS,
+                            India <br><br>DCMSSS has the motto of “Total involvement towards an integral Society” and serves the neediest section of the society, especially poorest of poor, the marginalized, underprivileged children and youth, the downtrodden women in particular dalits. Our DCMSSS is a registered society with Govt. to coordinate various developmental programmes and projects, training programmes in our Province of Tamil Nadu.
+                        </p>
+                        <div class="button"><a href="https://dcmsss.org/"  target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/morningstar.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Morning Star College</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Morning Star College,
+                            India <br><br>Morning Star Arts and Science College for Women is a Higher Educational Institution founded and administrated by the Congregation of the Immaculate Conception Society, Madurai (Sivagangai province) providing value based quality education at the tertiary level for the young women of the backward environs of Pasumpon – Kamuthi and others, in order to empower them and to make them committed for social transformation.
+                        </p>
+                        <div class="button"><a href="https://morningstarcollege.org/" target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/dbmac.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>DBMac</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Don Bosco Media and Animation College,trichy,
+                            India <br><br>Don Bosco Media is a centre for art, media, and communication in Trichy, Tamil Nadu. In a short span of time, it has emerged as one of the leading media centers in Tamil Nadu with the motto; ‘communicate to educate, empower, employ and entertain’. It functions with four independent operational wings – Don Bosco Media, DB MaC, Alaihal Media Books and Alaihal Media Clubs. The centre is registered as a society under Tamil Nadu registration Act, 1975.
+                        </p>
+                        <div class="button"><a href="https://dbmac.edu.in/" target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/sayal.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Don Bosco School of Excellence</h2>
+                        <p style=" text-align: justify;"><span style="color:#C70039;">Type:</span> &nbsp;Website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#C70039;">Client:</span> &nbsp;Don Bosco School of Excellence,Sayalgudi
+                            INDIA <br><br>DCMSSS has the motto of “Total involvement towards an integral Society” and serves the neediest section of the society, especially poorest of poor, the marginalized, underprivileged children and youth, the downtrodden women in particular dalits. Our DCMSSS is a registered society with Govt. to coordinate various developmental programmes and projects, training programmes in our Province of Tamil Nadu.
+                        </p>
+                        <div class="button"><a href="https://donboscocbsesayal.com/" target="_blank"><button><span class="index"> Visit Site<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+        </div>
+
+
+        <!--portfolio end-->
+        <!--blog-->
+        <!-- <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="blog-header"> Blogs</span>
+            <span class ="header-caption"> My Latest <span class="color"> blog posts.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="#">
+                     <div class="img">
+                        <a href="https://dukhanaloud.ae/"><img src="images/p7.png" alt="blog-one"></a>
+                        <div class="blog-date">Website</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>Dukhan Aloud</h3>
+                         <p>A special Emirati brand specializing in trading the finest types of agarwood and authentic agarwood, and designing the most luxurious and finest types of perfumes and agarwood mixtures with magical touches of incense and fragrant agarwood all designed by Dukhan Aloud.</p>
+                         <a href="https://dukhanaloud.ae/">Visit Website</a>
+                     </div></a>
+                 </div>      
+                 <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/cash.ae.png" alt="blog-two">
+                        <div class="blog-date">Website</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Cash Store</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores, 
+                            recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda harum dolorum iusto tenetur
+                             eius eligendi dolor magnam sit!</p>
+                    </div></a>
+                </div>      
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-three.jpg" alt="blog-three">
+                        <div class="blog-date">30 Nov,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Caffeine Addict</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit 
+                            ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur suscipit cum quas.
+                             Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-four.jpg" alt="blog-four">
+                        <div class="blog-date">6 Jul,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam vitae,
+                             quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis praesentium quae.
+                              Sed, quibusdam necessitatibus.</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-five.jpg" alt="blog-five">
+                        <div class="blog-date">1 Jun,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Work From Home</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem 
+                            dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque illum, soluta hic minus 
+                            sint explicabo..</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-six.jpg" alt="blog-six">
+                        <div class="blog-date">28 Feb,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Business Trip</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga ratione, unde, 
+                            ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut rerum nam.</p>
+                    </div></a>
+                </div>        
+            </div> -->
+
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Unitedkj
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--blog end-->
+    <!--contact-->
+    <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul>
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contact-header">Contact <span class="color"> Me</span>
+            <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+        </div>
+        <div class="contact-content">
+            <!--Contact form-->
+            <div class="contact-form">
+                <div class="form-header">
+                    Message Me
+                </div>
+                <form id="myForm" action="#">
+                    <div class="input-line">
+                        <input id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" type="email" placeholder="Email" class="input-name">
+                    </div>
+                    <input type="text" id="subject" placeholder="subject" class="input-subject">
+                    <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                    <button type="button" id="submit" value="send">Submit</button>
+                </form>
+
+            </div>
+            <!--Contact form-->
+            <!--Contact information-->
+            <div class="contact-info">
+                <div class="contact-info-header">
+                    Contact Info
+                </div>
+                <div class="contact-info-content">
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Name</h6>
+                            <p>Unitedkj</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Location</h6>
+                            <p>Houston, USA</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Call</h6>
+                            <p>+1 346 774-9686</p>
+                        </div>
+                    </div>
+
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Email</h6>
+                            <p>kamaleshmuthu01@gmail.com</p>
+                        </div>
+                    </div>
+                </div>s
+                <!--Contact information end-->
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> UNITEDKJ
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--contact end-->
+    </div>
+    <!--all the divisions-->
+    <script src="../public/js/jquery.min.js"></script>
+    <script src="../public/js/particles.js"></script>
+    <script src="../public/js/particles.min.js"></script>
+    <script src="../public/js/index.js"></script>
+    <!--particles script-->
+    <script>
+        particlesJS("particles", { "particles": { "number": { "value": 120, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": true, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": true, "speed": 0, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": false, "distance": 0, "color": "#ffffff", "opacity": 0.24463576890600452, "width": 1.2626362266116362 }, "move": { "enable": true, "speed": 3, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+    </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyB4K4eGpVueIRGp0wB-wz5kvT5q1u1sSwE",
+          authDomain: "unitedkj-adc9e.firebaseapp.com",
+          projectId: "unitedkj-adc9e",
+          storageBucket: "unitedkj-adc9e.appspot.com",
+          messagingSenderId: "24874678662",
+          appId: "1:24874678662:web:7d9091c388ffc78e059407"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</body>
+
+</html>
