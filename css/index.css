@@ -1,9 +1,4 @@
-/*!
-  * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
-  * Author/Developer: Sujal
-  * Version: v1
-  */
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
@@ -1370,6 +1365,20 @@ For devices with smaller width like mobile phone
         letter-spacing: 2px;
         font-size: 40px;
     }
+     .header-content .firstline{
+        z-index: 2;
+        font-weight:700;
+        font-family: poppins;
+        font-size: 50px;
+    }
+    .header-content .secondline{
+        z-index: 2;
+        font-size: 35px;
+        padding-top:20px ;
+        font-weight:500;
+        color: rgb(255, 255, 255,.8);
+    }
+ 
     .contact{
         display: none;
     }
