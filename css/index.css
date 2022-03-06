@@ -1352,7 +1352,7 @@ For devices with smaller width like mobile phone
 
 @media only screen and (max-width: 550px){
     .header-content{
-        height: 500px;
+        height: 400px;
         width: 100%;
         float: left;
         display: flex;
